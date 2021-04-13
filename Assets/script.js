@@ -7,4 +7,4 @@ var currentTemperature = $("#temperature");
 var currentHumidty = $("#humidity");
 var currentWSpeed = $("#wind-speed");
 var currentUvindex = $("#uv-index");
-var sCity = [];
+var seCity = [];
