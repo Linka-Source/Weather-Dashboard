@@ -6,3 +6,20 @@ body {
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+h3 {
+    font-weight: bold;
+}
+
+.forecast {
+    font-size: 0.9em;
+}
+
+span {
+    font-size: 1em;
+}
+
+li:hover {
+    background-color: rgb(46, 53, 59);
+    text-decoration: underline;
+}
