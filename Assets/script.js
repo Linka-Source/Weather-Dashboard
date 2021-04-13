@@ -7,4 +7,15 @@ var currentTemperature = $("#temperature");
 var currentHumidty = $("#humidity");
 var currentWSpeed = $("#wind-speed");
 var currentUvindex = $("#uv-index");
-var seCity = [];
+var sCity = [];
+
+//search city function
+
+function find(c){
+    for (var i=0; i<sCity.length; i++){
+        if(c.toUpperCase()===sCity[i]){
+            return -1;
+        }
+    }
+    return 1;
+}
